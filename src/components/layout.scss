@@ -3,13 +3,15 @@ $blueGray: #D3DCE5;
 $deepBlue: #97A1AC;
 $pink: #F2B1DB;
 
+$oswald: "Oswald", sans-serif;
+
+$margin80: 80px;
 
 body {
   margin: 0;
   font-family: "Sofia Pro", sans-serif;
   font-weight: 400;
   font-style: normal;
-  // line-height: 22px;
   font-size: 16px;
   color: $black;
 }
@@ -27,8 +29,9 @@ header {
 
 h1 {
   margin: 0;
-  font-family: "Oswald";
-  font-size: 80px;
+  font-family: $oswald;
+  font-style: normal;
+  font-size: 70px;
   font-weight: 500;
   &.heroTagline {
     text-transform: uppercase;
@@ -77,8 +80,13 @@ footer {
 
 p {
   &.heroBody {
-    margin: 3em 10em auto .5em;
+    margin: 3em 3em auto .5em;
+    font-size: 20px;
   }
+}
+
+section {
+  margin: 125px $margin80;
 }
 
 .hero {
@@ -90,4 +98,48 @@ p {
 .heroText {
   flex-shrink: 2;
   margin: auto 0 auto 7em;
+}
+
+.sectionTitle {
+  font-family: $oswald;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+#connect {
+  display: flex;
+  justify-content: center;
+  p {
+    font-size: 18px;
+  }
+  a {
+    color: $black;
+    &:hover {
+      color: $deepBlue;
+    }
+  }
+}
+
+.circle-icon {
+  background: $pink;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 30px;
+  margin-right: 15px; 
+  color: $black;
+  &:hover {
+    background: $blueGray;
+  }
+}
+
+.iconList {
+  margin-top: 30px;
+  margin-bottom: 75px;
 }

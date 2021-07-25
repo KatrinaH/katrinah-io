@@ -1,12 +1,12 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
 
-import { faBehance, faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faBehance, faGithub, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faHeart } from '@fortawesome/pro-light-svg-icons'
 
 library.add(
   faBehance,
   faGithub,
-  faLinkedin,
+  faLinkedinIn,
   faInstagram,
   faHeart
 );

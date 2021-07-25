@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../fontawesome'
 
 import MainLayout from '../components/mainLayout'
@@ -10,7 +11,7 @@ const IndexPage = () => {
       <div className="hero">
         <StaticImage
           className="selfie"
-          alt="Picture of Katrina H."
+          alt="Photo of Katrina H."
           src="../images/katrina.png"
         />
         <div className="heroText">
@@ -19,16 +20,30 @@ const IndexPage = () => {
         </div>
       </div>
 
-      <div className="work">
+      <div id="work">
+        <section>
+          <span className="sectionTitle">Work</span>
 
+        </section>
       </div>
 
-      <div className="experience">
-
+      <div id="experience">
+        <section>
+          <span className="sectionTitle">Experience</span>
+        </section>
       </div>
 
-      <div className="connect">
-        
+      <div id="connect">
+        <section>
+          <span className="sectionTitle">Connect</span>
+          <ul className="iconList">
+            <li><a href="https://www.linkedin.com/in/katrinahussain"><FontAwesomeIcon icon={['fab', 'linkedin-in']} size="lg" className="circle-icon"/></a></li>
+            <li><a href="https://github.com/KatrinaH"><FontAwesomeIcon icon={['fab', 'github']} size="lg" className="circle-icon"/></a></li>
+            <li><a href="https://www.behance.net/katrinahussain"><FontAwesomeIcon icon={['fab', 'behance']} size="lg" className="circle-icon"/></a></li>
+            <li><a href="https://www.instagram.com/kamarycreative"><FontAwesomeIcon icon={['fab', 'instagram']} size="lg" className="circle-icon"/></a></li>
+          </ul>
+          <p>If you’re interested in working together, <a href="mailto:katrina@kamarycreative.com">get in touch</a>!</p>
+        </section>
       </div>
     </MainLayout>
   )
