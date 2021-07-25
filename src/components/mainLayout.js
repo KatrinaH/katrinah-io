@@ -31,7 +31,7 @@ const MainLayout = ({ pageTitle, children  }) => {
       {children}
       
       <footer>
-        <p>&copy; {new Date().getFullYear()} &bull; Made with <FontAwesomeIcon icon={['fal', 'heart']} size="1x" /> <a href="https://kamarycreative.com">Kamary Creative</a></p>
+        <p>&copy; {new Date().getFullYear()} &bull; Made with <FontAwesomeIcon icon={['far', 'heart']} size="1x" /> <a href="https://kamarycreative.com">Kamary Creative</a></p>
       </footer>
     </main>
   )
