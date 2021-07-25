@@ -15,8 +15,26 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/oswald": "^4.5.0",
+    "@fortawesome/fontawesome-pro": "^5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/pro-duotone-svg-icons": "^5.15.3",
+    "@fortawesome/pro-light-svg-icons": "^5.15.3",
+    "@fortawesome/pro-regular-svg-icons": "^5.15.3",
+    "@fortawesome/pro-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "gatsby": "^3.10.1",
+    "gatsby-plugin-fontawesome-css": "^1.1.0",
     "gatsby-plugin-gatsby-cloud": "^2.10.0",
+    "gatsby-plugin-image": "^1.10.1",
+    "gatsby-plugin-sass": "^4.10.0",
+    "gatsby-plugin-sharp": "^3.10.2",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^3.10.0",
+    "node-sass": "^6.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
