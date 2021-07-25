@@ -1,0 +1,93 @@
+$black: #222;
+$blueGray: #D3DCE5;
+$deepBlue: #97A1AC;
+$pink: #F2B1DB;
+
+
+body {
+  margin: 0;
+  font-family: "Sofia Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  // line-height: 22px;
+  font-size: 16px;
+  color: $black;
+}
+
+main {
+  margin-top: 20px;
+}
+
+header {
+  margin: 25px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Oswald";
+  font-size: 80px;
+  font-weight: 500;
+  &.heroTagline {
+    text-transform: uppercase;
+    line-height: 1.2em;
+  }
+}
+
+ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+
+nav {
+  display: flex;
+  font-size: 18px;
+  a {
+    display: block;
+    padding: .75em;
+    color: $black;
+    text-decoration: none;
+    &:hover,
+    &:active {
+      color: $deepBlue;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: $blueGray;
+  height: 75px;
+  p {
+    align-items: center;
+    margin: auto;
+  }
+  a {
+    text-decoration: none;
+    color: $black;
+  }
+}
+
+p {
+  &.heroBody {
+    margin: 3em 10em auto .5em;
+  }
+}
+
+.hero {
+  display: flex;
+  margin: 80px 80px;
+  justify-content: center;
+}
+
+.heroText {
+  flex-shrink: 2;
+  margin: auto 0 auto 7em;
+}
