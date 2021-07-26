@@ -111,6 +111,10 @@ section {
   justify-content: center;
 }
 
+.selfie {
+  width: 60%;
+}
+
 .heroText {
   flex-shrink: 2;
   margin: auto 0 auto 7em;
@@ -209,7 +213,7 @@ and (min-device-width: 768px)
         margin-bottom: 20px;
       }
       h1 {
-        font-size: 40px;
+        font-size: 32px;
       }
       .heroText {
         margin: 30px auto;
@@ -224,7 +228,7 @@ and (min-device-width: 768px)
     }
     p.heroBody {
       margin: 2em 0 0 0;
-      font-size: 18px;
+      font-size: 16px;
     }
     #experience {
       width: 100%;
@@ -232,7 +236,15 @@ and (min-device-width: 768px)
         font-size: 14px;
       }
     }
+    #connect p {
+      font-size: 16px;
+    }
+    footer p {
+      font-size: 12px;
+    }
   }
+
+
   @media screen 
   and (max-device-width: 500px) {
     .circle-icon {
