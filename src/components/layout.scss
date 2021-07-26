@@ -189,6 +189,8 @@ section {
   display: flex;
   justify-content: center;
   a {
+    text-decoration: underline;
+    text-decoration-color: $pink;
     color: $black;
     &:hover {
       color: $deepBlue;
