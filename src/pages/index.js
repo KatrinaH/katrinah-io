@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../fontawesome'
-
+import { FaLinkedinIn, FaGithub, FaBehance, FaInstagram } from 'react-icons/fa' 
 import MainLayout from '../components/mainLayout'
 
 const IndexPage = () => {
@@ -84,10 +82,10 @@ const IndexPage = () => {
           <p>If you’re interested in working together, <a href="mailto:katrina@kamarycreative.com?subject=Found your website - katrinah.io&hellip;">get in touch</a>!</p>
 
           <ul className="iconList">
-            <li><a href="https://www.linkedin.com/in/katrinahussain"><FontAwesomeIcon icon={['fab', 'linkedin-in']} size="lg" className="circle-icon"/></a></li>
-            <li><a href="https://github.com/KatrinaH"><FontAwesomeIcon icon={['fab', 'github']} size="lg" className="circle-icon"/></a></li>
-            <li><a href="https://www.behance.net/katrinahussain"><FontAwesomeIcon icon={['fab', 'behance']} size="lg" className="circle-icon"/></a></li>
-            <li><a href="https://www.instagram.com/kamarycreative"><FontAwesomeIcon icon={['fab', 'instagram']} size="lg" className="circle-icon"/></a></li>
+            <li><a href="https://www.linkedin.com/in/katrinahussain"><FaLinkedinIn className="iconBkgd"/></a></li>
+            <li><a href="https://github.com/KatrinaH"><FaGithub className="iconBkgd"/></a></li>
+            <li><a href="https://www.behance.net/katrinahussain"><FaBehance className="iconBkgd"/></a></li>
+            <li><a href="https://www.instagram.com/kamarycreative"><FaInstagram className="iconBkgd"/></a></li>
           </ul>
         </section>
       </div>

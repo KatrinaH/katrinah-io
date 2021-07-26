@@ -202,16 +202,13 @@ span.textHighlight {
   background-color: $pink;
 }
 
-.circle-icon {
+.iconBkgd {
   background: $pink;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
   text-align: center;
-  line-height: 100px;
   vertical-align: middle;
-  padding: 30px;
-  color: $black;
+  padding: 25px;
+  color: #222;
+  font-size: 20px;
   &:hover {
     background: $blueGray;
   }
@@ -311,12 +308,10 @@ span.textHighlight {
     #connect p {
       font-size: 16px;
     }
-    .circle-icon {
-      width: 60px;
-      height: 60px;
-      line-height: 60px;
-      padding: 20px;      
-    }    
+    .iconBkgd {
+      padding: 20px;
+      font-size: 14px;    
+    }
     footer p {
       font-size: 12px;
     }

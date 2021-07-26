@@ -1,7 +1,6 @@
 import React from 'react'
-import '../fontawesome'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { StaticImage } from 'gatsby-plugin-image'
+import { BiHeart } from 'react-icons/bi'
 import { GrGatsbyjs, GrReactjs } from 'react-icons/gr'
 import { FaSass } from 'react-icons/fa'
 import '../components/layout.scss'
@@ -32,7 +31,7 @@ const MainLayout = ({ pageTitle, children  }) => {
       {children}
       
       <footer>
-        <p>&copy; {new Date().getFullYear()} &bull; Made with <FontAwesomeIcon icon={['far', 'heart']} size="1x" /> by Katrina H.</p><br />
+        <p>&copy; {new Date().getFullYear()} &bull; Made with <BiHeart /> Katrina H.</p><br />
         <p>Built with <GrGatsbyjs/> <GrReactjs /> <FaSass /></p>
       </footer>
     </main>
