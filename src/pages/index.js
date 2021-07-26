@@ -20,12 +20,42 @@ const IndexPage = () => {
         </div>
       </div>
 
-      {/* <div id="work">
+      <div id="work">
         <section>
           <span className="sectionTitle">Work</span>
+          <div className="portfolio">
+            <div className="portfolioPiece">
+              <StaticImage
+                className="portfolioImage"
+                alt="Project Hygiene - Web design"
+                src="../images/projectHygiene.png"
+              />
+              <h4><a href="https://projecthygiene.org">Project Hygiene</a></h4>
+              <p>Web design</p>
+            </div>
+              <div className="portfolioPiece">
+              <StaticImage
+                className="portfolioImage"
+                alt="Destined to Thrive - Logo design, web design and development"
+                src="../images/destinedToThrive.png"
+              />
+              <h4>Destined to Thrive</h4>
+              <p>Logo + Web design &amp; development</p>
+            </div>
+            <div className="portfolioPiece">
+              <StaticImage
+                className="portfolioImage"
+                alt="Iverea - Web design and development"
+                src="../images/ivereaLLC.png"
+              />          
+              <h4>Iverea</h4>                  
+              <p>Web design &amp; development</p>
+            </div>
+
+          </div>
 
         </section>
-      </div> */}
+      </div>
 
       <div id="experience">
         <section>
@@ -44,7 +74,8 @@ const IndexPage = () => {
             <h2>2015-<span className="textHighlight">Present</span> &bull; Founder + Creative Director</h2>
             <h3>Kamary Creative, LLC.</h3>
             <p>Designing and building websites for non-profit agencies, creatives and mission driven entrepreneurs.</p>
-          </div>          
+            <p className="moreExperience"><small><i>...see more on <a href="https://linkedin.com/in/katrinahussain">LinkedIn</a>.</i></small></p>
+          </div>
         </section>
       </div>
 
