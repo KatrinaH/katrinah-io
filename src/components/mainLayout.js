@@ -2,6 +2,8 @@ import React from 'react'
 import '../fontawesome'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { StaticImage } from 'gatsby-plugin-image'
+import { GrGatsbyjs, GrReactjs } from 'react-icons/gr'
+import { FaSass } from 'react-icons/fa'
 import '../components/layout.scss'
 
 
@@ -31,8 +33,8 @@ const MainLayout = ({ pageTitle, children  }) => {
       {children}
       
       <footer>
-        <p>&copy; {new Date().getFullYear()} &bull; Made with <FontAwesomeIcon icon={['far', 'heart']} size="1x" /> by Katrina H.</p>
-        <p>Built with Gatsby, <FontAwesomeIcon icon={['fab', 'react']} size="1x" /> + <FontAwesomeIcon icon={['fab', 'sass']} size="1x" /></p>
+        <p>&copy; {new Date().getFullYear()} &bull; Made with <FontAwesomeIcon icon={['far', 'heart']} size="1x" /> by Katrina H.</p><br />
+        <p>Built with <GrGatsbyjs/> <GrReactjs /> <FaSass /></p>
       </footer>
     </main>
   )
