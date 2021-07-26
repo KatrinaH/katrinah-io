@@ -21,7 +21,7 @@ const MainLayout = ({ pageTitle, children  }) => {
         </Link>
         <nav>
           <ul>
-            <li><Link to="/">HOME</Link></li>
+            {/* <li><Link to="/">HOME</Link></li> */}
             {/* <li><Link to="/#work">WORK</Link></li> */}
             <li><Link to="/#experience">EXPERIENCE</Link></li>
             <li><Link to="/#connect">CONNECT</Link></li>
@@ -31,7 +31,7 @@ const MainLayout = ({ pageTitle, children  }) => {
       {children}
       
       <footer>
-        <p>&copy; {new Date().getFullYear()} &bull; Made with <FontAwesomeIcon icon={['far', 'heart']} size="1x" /> <a href="https://kamarycreative.com">Kamary Creative</a></p>
+        <p>&copy; {new Date().getFullYear()} &bull; Made with <FontAwesomeIcon icon={['far', 'heart']} size="1x" /> by Katrina H.</p>
       </footer>
     </main>
   )
