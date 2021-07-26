@@ -6,7 +6,6 @@ module.exports = {
     author: "Katrina H."
   },
   plugins: ["gatsby-plugin-gatsby-cloud",
-    "gatsby-plugin-fontawesome-css",
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
