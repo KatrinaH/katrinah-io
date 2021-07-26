@@ -3,8 +3,8 @@ $blueGray: #D3DCE5;
 $deepBlue: #97A1AC;
 $pink: #F2B1DB;
 
-$oswald: "Oswald", sans-serif;
-$sofia: "Sofia Pro", sans-serif;
+$oswald: 'Oswald', sans-serif;
+$sofia: 'Sofia Pro', sans-serif;
 
 $margin80: 80px;
 
@@ -182,13 +182,17 @@ span.textHighlight {
 
 @media screen
 and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+  and (max-device-width: 1366px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+    header {
+      justify-content: space-between;
+    }
     .hero {
       flex-wrap: wrap;
       .selfie {
-        width: 80%;
-        margin-bottom: 20px;
+        // width: 70%;
+        margin-top: 35px;
+        margin-bottom: 50px;
       }
       .heroText {
         margin: 30px auto;
@@ -198,12 +202,13 @@ and (min-device-width: 768px)
  }
 
  @media only screen 
- and (min-device-width: 320px) 
- and (max-device-width: 480px)
- and (-webkit-min-device-pixel-ratio: 2) {
+ and (min-device-width: 280px) 
+ and (max-device-width: 812px) 
+ and (-webkit-min-device-pixel-ratio: 2)
+ {
     header {
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-around;
     }
     .hero {
       flex-wrap: wrap;
@@ -239,18 +244,13 @@ and (min-device-width: 768px)
     #connect p {
       font-size: 16px;
     }
-    footer p {
-      font-size: 12px;
-    }
-  }
-
-
-  @media screen 
-  and (max-device-width: 500px) {
     .circle-icon {
       width: 60px;
       height: 60px;
       line-height: 60px;
       padding: 20px;      
+    }    
+    footer p {
+      font-size: 12px;
     }
   }

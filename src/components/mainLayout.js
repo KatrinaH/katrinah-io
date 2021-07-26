@@ -23,7 +23,6 @@ const MainLayout = ({ pageTitle, children  }) => {
         </Link>
         <nav>
           <ul>
-            {/* <li><Link to="/">HOME</Link></li> */}
             {/* <li><Link to="/#work">WORK</Link></li> */}
             <li><Link to="/#experience">EXPERIENCE</Link></li>
             <li><Link to="/#connect">CONNECT</Link></li>
