@@ -20,12 +20,12 @@ const IndexPage = () => {
         </div>
       </div>
 
-      <div id="work">
+      {/* <div id="work">
         <section>
           <span className="sectionTitle">Work</span>
 
         </section>
-      </div>
+      </div> */}
 
       <div id="experience">
         <section>
@@ -50,7 +50,6 @@ const IndexPage = () => {
 
       <div id="connect">
         <section>
-          {/* <span className="sectionTitle">Connect</span> */}
           <p>If you’re interested in working together, <a href="mailto:katrina@kamarycreative.com?subject=Found your website - katrinah.io&hellip;">get in touch</a>!</p>
 
           <ul className="iconList">
