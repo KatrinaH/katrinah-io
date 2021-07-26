@@ -46,7 +46,8 @@ h2 {
   font-size: 30px;
   font-weight: 500;
   text-transform: uppercase;
-  line-height: .025em;
+  line-height: 1.25em;
+  margin: 10px 0;
 }
 
 h3 {
@@ -55,6 +56,7 @@ h3 {
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
+  margin: 0;
 }
 
 ul {
@@ -87,16 +89,12 @@ footer {
   background-color: $blueGray;
   height: 75px;
   p {
-    align-items: center;
     margin: auto;
-  }
-  a {
-    text-decoration: none;
-    color: $black;
   }
 }
 
 p {
+  margin: 0;
   &.heroBody {
     margin: 3em 3em auto .5em;
     font-size: 20px;
@@ -104,12 +102,12 @@ p {
 }
 
 section {
-  margin: 50px;
+  margin: 45px;
 }
 
 .hero {
   display: flex;
-  margin: $margin80;
+  margin: $margin80 50px;
   justify-content: center;
 }
 
@@ -131,14 +129,10 @@ section {
   margin: auto;
   width: 65%;
   .job {
-    margin-top: 65px;
-    h3 {
-      margin-bottom: -.25em;
-    }
+    margin-top: 50px;
     p {
       font-size: 18px;
       font-weight: 300;
-
     }
   }
 }
@@ -181,3 +175,70 @@ span.textHighlight {
   margin-bottom: 55px;
   justify-content: space-evenly;
 }
+
+@media screen
+and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .hero {
+      flex-wrap: wrap;
+      .selfie {
+        width: 80%;
+        margin-bottom: 20px;
+      }
+      .heroText {
+        margin: 30px auto;
+        flex-shrink: 1;
+      }
+    }
+ }
+
+ @media only screen 
+ and (min-device-width: 320px) 
+ and (max-device-width: 480px)
+ and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .hero {
+      flex-wrap: wrap;
+      margin-top: 60px;
+      margin-bottom: 40px;
+      .selfie {
+        margin-bottom: 20px;
+      }
+      h1 {
+        font-size: 40px;
+      }
+      .heroText {
+        margin: 30px auto;
+        flex-shrink: 1;
+      }
+    }
+    h2 {
+      font-size: 25px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    p.heroBody {
+      margin: 2em 0 0 0;
+      font-size: 18px;
+    }
+    #experience {
+      width: 100%;
+      .job p {
+        font-size: 14px;
+      }
+    }
+  }
+  @media screen 
+  and (max-device-width: 500px) {
+    .circle-icon {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      padding: 20px;      
+    }
+  }

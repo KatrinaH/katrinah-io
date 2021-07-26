@@ -2,6 +2,8 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://www.katrinah.io",
     title: "Katrina H.",
+    description: "Katrina Hussain, front end developer and UI/UX designer.",
+    author: "Katrina H."
   },
   plugins: ["gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-fontawesome-css",
