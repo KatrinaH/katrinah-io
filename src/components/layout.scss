@@ -4,12 +4,13 @@ $deepBlue: #97A1AC;
 $pink: #F2B1DB;
 
 $oswald: "Oswald", sans-serif;
+$sofia: "Sofia Pro", sans-serif;
 
 $margin80: 80px;
 
 body {
   margin: 0;
-  font-family: "Sofia Pro", sans-serif;
+  font-family: $sofia;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -37,6 +38,23 @@ h1 {
     text-transform: uppercase;
     line-height: 1.2em;
   }
+}
+
+h2 {
+  font-family: $oswald;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: .025em;
+}
+
+h3 {
+  font-family: $sofia;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 ul {
@@ -86,12 +104,12 @@ p {
 }
 
 section {
-  margin: 125px $margin80;
+  margin: 50px;
 }
 
 .hero {
   display: flex;
-  margin: 80px 80px;
+  margin: $margin80;
   justify-content: center;
 }
 
@@ -109,6 +127,22 @@ section {
   margin-bottom: 50px;
 }
 
+#experience {
+  margin: auto;
+  width: 65%;
+  .job {
+    margin-top: 65px;
+    h3 {
+      margin-bottom: -.25em;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 300;
+
+    }
+  }
+}
+
 #connect {
   display: flex;
   justify-content: center;
@@ -123,6 +157,10 @@ section {
   }
 }
 
+span.textHighlight {
+  background-color: $pink;
+}
+
 .circle-icon {
   background: $pink;
   width: 100px;
@@ -132,7 +170,7 @@ section {
   line-height: 100px;
   vertical-align: middle;
   padding: 30px;
-  margin-right: 15px; 
+  // margin-right: 15px; 
   color: $black;
   &:hover {
     background: $blueGray;
@@ -141,5 +179,6 @@ section {
 
 .iconList {
   margin-top: 30px;
-  margin-bottom: 75px;
+  margin-bottom: 55px;
+  justify-content: space-evenly;
 }
