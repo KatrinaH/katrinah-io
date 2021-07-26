@@ -17,6 +17,11 @@ body {
   color: $black;
 }
 
+a {
+  text-decoration: none;
+  color: $black;
+}
+
 main {
   margin-top: 20px;
 }
@@ -40,7 +45,7 @@ h1 {
   }
 }
 
-h2 {
+h2, h4 {
   font-family: $oswald;
   font-style: normal;
   font-size: 30px;
@@ -59,6 +64,10 @@ h3 {
   margin: 0;
 }
 
+h4 {
+  font-size: 20px;
+}
+
 ul {
   display: flex;
   margin: 0px;
@@ -74,7 +83,6 @@ nav {
     display: block;
     padding: .75em;
     color: $black;
-    text-decoration: none;
     &:hover,
     &:active {
       color: $deepBlue;
@@ -129,6 +137,31 @@ section {
   margin-bottom: 50px;
 }
 
+#work {
+  margin: 150px 0;
+}
+
+.portfolio { 
+  display: flex;
+  margin: 55px 0;
+  .portfolioPiece {
+    margin: auto 20px;
+    a {
+      &:hover,
+      &:visited {
+        color: $deepBlue;
+      }
+    }
+    .portfolioImage {
+      width: 90%;
+    }
+    p {
+      font-weight: 300;
+      margin-top: -5px;
+    }
+  }
+}
+
 #experience {
   margin: auto;
   width: 65%;
@@ -137,6 +170,15 @@ section {
     p {
       font-size: 18px;
       font-weight: 300;
+      a {
+        &:hover,
+        &:visited {
+          color: $deepBlue;
+        }
+      }
+    }
+    .moreExperience {
+      margin-top: 10px;
     }
   }
 }
@@ -181,7 +223,7 @@ span.textHighlight {
 }
 
 @media screen
-and (min-device-width: 768px) 
+  and (min-device-width: 768px) 
   and (max-device-width: 1366px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     header {
@@ -199,6 +241,22 @@ and (min-device-width: 768px)
         flex-shrink: 1;
       }
     }
+ }
+
+ @media screen
+ and (max-device-width: 1024px)
+ {
+   #work {
+     margin: auto;
+     width: 65%;
+   }
+   .portfolio {
+     flex-wrap: wrap;
+     margin-top: 25px;
+     .portfolioPiece {
+        margin: 20px 0;
+     }
+   }
  }
 
  @media only screen 
@@ -234,6 +292,9 @@ and (min-device-width: 768px)
     p.heroBody {
       margin: 2em 0 0 0;
       font-size: 16px;
+    }
+    #work {
+      width: 100%;
     }
     #experience {
       width: 100%;
