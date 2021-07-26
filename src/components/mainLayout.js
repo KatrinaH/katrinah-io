@@ -32,6 +32,7 @@ const MainLayout = ({ pageTitle, children  }) => {
       
       <footer>
         <p>&copy; {new Date().getFullYear()} &bull; Made with <FontAwesomeIcon icon={['far', 'heart']} size="1x" /> by Katrina H.</p>
+        <p>Built with Gatsby, <FontAwesomeIcon icon={['fab', 'react']} size="1x" /> + <FontAwesomeIcon icon={['fab', 'sass']} size="1x" /></p>
       </footer>
     </main>
   )
