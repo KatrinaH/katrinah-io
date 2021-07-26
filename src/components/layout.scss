@@ -45,7 +45,7 @@ h1 {
   }
 }
 
-h2{
+h2 {
   font-family: $oswald;
   font-style: normal;
   font-size: 30px;
@@ -62,6 +62,10 @@ h3,h4 {
   font-weight: 400;
   text-transform: uppercase;
   margin: 0;
+}
+
+h4 { 
+  font-family: $oswald;
 }
 
 ul {
@@ -141,6 +145,10 @@ section {
   margin: 55px 0;
   .portfolioPiece {
     margin: auto 20px;
+    h4 {
+      margin-top: 15px;
+      margin-bottom: 5px;
+    }
     a {
       &:hover,
       &:visited {
@@ -286,6 +294,11 @@ span.textHighlight {
     }
     #work {
       width: 100%;
+      .portfolioPiece {
+        p {
+          font-size: 14px;
+        }
+      }
     }
     #experience {
       width: 100%;
