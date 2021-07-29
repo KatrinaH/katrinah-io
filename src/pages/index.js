@@ -37,7 +37,7 @@ const IndexPage = () => {
                 alt="Destined to Thrive - Logo design, web design and development"
                 src="../images/destinedToThrive.png"
               />
-              <h4><a href="https://www.destinedtothrivellc.com">Destined to Thrive</a></h4>
+              <h4><a href="https://www.behance.net/gallery/124400105/Logo-Website-Design-Destined-to-Thrive">Destined to Thrive</a></h4>
               <p>Logo + Web design &amp; development</p>
             </div>
             <div className="portfolioPiece">
@@ -46,7 +46,7 @@ const IndexPage = () => {
                 alt="Iverea - Web design and development"
                 src="../images/ivereaLLC.png"
               />          
-              <h4><a href="https://www.iverea.com">Iverea</a></h4>                  
+              <h4><a href="https://www.behance.net/gallery/124405133/Web-Design-Development-Iverea">Iverea</a></h4>                  
               <p>Web design &amp; development</p>
             </div>
 
