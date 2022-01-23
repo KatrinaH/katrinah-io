@@ -32,7 +32,7 @@ const MainLayout = ({ pageTitle, children  }) => {
       
       <footer>
         <p>&copy; {new Date().getFullYear()} &bull; Made with <BiHeart /> Katrina H.</p><br />
-        <p>Built with <GrGatsbyjs/> <GrReactjs /> <FaSass /></p>
+        <p>Built with <GrGatsbyjs /> <GrReactjs /> <FaSass /></p>
       </footer>
     </main>
   )
