@@ -13,7 +13,7 @@ const IndexPage = () => {
           src="../images/katrina.png"
         />
         <div className="heroText">
-          <h1 className="heroTagline">Hello, I’m Katrina, a Front End Developer + UI/UX Designer.</h1>
+          <h1 className="heroTagline">Hello, I’m Katrina, a Front End Developer + UX/UI Designer.</h1>
           <p className="heroBody">With a career history of pushing code to private government repos, I’m no stranger to working in full stack javascript environments. I also have experience in UI/UX design to round out my tech &amp; creative tool belt.</p>
         </div>
       </div>
@@ -59,7 +59,7 @@ const IndexPage = () => {
         <section>
           <span className="sectionTitle">Recent Experience</span>
           <div className="job">
-            <h2>2015-<span className="textHighlight">Present</span> &bull; Owner + UI/UX Designer &amp; Developer</h2>
+            <h2>2015-<span className="textHighlight">Present</span> &bull; Owner + UX/UI Designer &amp; Developer</h2>
             <h3>Kamary Creative, LLC.</h3>
             <p>Designing and building websites for non-profit agencies, creatives and mission driven entrepreneurs.</p>
             <p className="moreExperience"><small><i>...see more on <a href="https://linkedin.com/in/katrinahussain">LinkedIn</a>.</i></small></p>
