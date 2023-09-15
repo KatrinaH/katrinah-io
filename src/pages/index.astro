@@ -1,14 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+
 ---
 
 <Layout title="Katrinah.io | Home">
 	<main>
 		<h1>Hi! I'm <span class="text-gradient">Katrina</span>.</h1>
-		<p><i>I'm a Product Designer and former front end dev working on design systems.</i></p>
-		<p class="instructions">
-			Here, I'll be documenting my process of redesigning this personal site and coding in public. <strong>Insert cringe 😬!</strong><br />I'll also practice sharing my findings regarding designing and coding design systems! 🥳
+		<p><i>I'm a Design Systems & Product Designer, also a former Front End Developer. I love working at the intersection of design and code. 💜</i></p>
+		<p class="intro">
+			Here, I'll be documenting my process of redesigning this personal site and maybe coding in public. <strong>Insert cringe 😬!</strong><br />I intend to start sharing my knowledge and things I learn about designing and coding design systems! 🥳
 		</p>
 		<div>
 			<p>To Do:</p>
@@ -16,12 +16,18 @@ import Card from '../components/Card.astro';
 				<li><s>Say goodbye 👋🏾 to Gatsby &amp; Gatsby Cloud</s></li>
 				<li><s>Set up Astro and deploy to Netlify</s></li>
 				<li>Create the design system... because why not!</li>
-				<li>Design the website, portfolio and blog pages</li>
+				<li>Design the website</li>
 				<li>Design & write case studies</li>
-				<li>Write blog posts</li>
+				<li>Write and publish blog posts</li>
 				<li>Coninuously upload/publish</li>
 				<li>Maybe even <a href="https://twitter.com/TrinaBHu">tweet</a> about it too!</li>
 			</ul>
+		</div>
+		<div>
+			<p>9/15/23 - It's been pretty busy over here so this endeavor has been on pause for a bit. I did manage to upgrade to Astro 3.0 this week. I've also started a couple of online classes around design, design systems and <a href="https://astro.build/" target="_blank">Astro</a> of course!</p>
+		</div>
+		<div>
+			You can follow these updates on <a href="https://github.com/katrinah">Github</a>!
 		</div>
 
 	</main>
@@ -45,29 +51,12 @@ import Card from '../components/Card.astro';
 		background-size: 400%;
 		background-position: 0%;
 	}
-	.instructions {
+	.intro {
 		line-height: 1.6;
 		margin: 1rem 0;
 		border: 1px solid rgba(var(--accent), 25%);
 		background-color: white;
 		padding: 1rem;
 		border-radius: 0.4rem;
-	}
-	.instructions code {
-		font-size: 0.875em;
-		font-weight: bold;
-		background: rgba(var(--accent), 12%);
-		color: rgb(var(--accent));
-		border-radius: 4px;
-		padding: 0.3em 0.45em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
 	}
 </style>
